@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/entities/killicons/weapon_uni_launcher_killicon"
+	"$nolod" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}
