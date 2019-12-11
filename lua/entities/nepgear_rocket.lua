@@ -3,9 +3,9 @@ ENT.Type = "anim"
 ENT.PrintName = "Nepgear Rocket"  
 ENT.Author = "Xnopyt"  
 ENT.Spawnable = false
-ENT.AdminOnly = traceue 
-ENT.DoNotDuplicate = traceue 
-ENT.DisableDuplicator = traceue
+ENT.AdminOnly = true
+ENT.DoNotDuplicate = true 
+ENT.DisableDuplicator = true
 
 function ENT:Initialize()
 	if SERVER then
@@ -40,7 +40,7 @@ function ENT:Think()
 		local trace = util.TraceEntity(traceinfo, self.Entity)
 		if trace.HitSky then
 			self.Entity:Remove()
-			return traceue
+			return true 
 		end
 		if trace.Hit then
 			if not IsValid(self.Owner) then
