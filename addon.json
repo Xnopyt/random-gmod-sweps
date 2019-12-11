@@ -1,0 +1,6 @@
+{
+	"title"		:	"My Random Weapons",
+	"type"		:	"weapon",
+	"tags"		:	[ "fun" ],
+	"ignore"	: 	[ ".git/*" ]
+}
